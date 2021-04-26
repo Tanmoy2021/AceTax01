@@ -6,48 +6,9 @@
 .menubar .navbar {
   padding: 0;
 }
-
-.header-blue .navbar {
-  position: absolute;
-  z-index: 1;
-  background-color: #fff;
-  border: 4px solid;
-  border-radius: 50px;
-  left: 50%;
-  width: 100%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
 .menubar .nav-item {
   padding-right: 24px;
 }
-
-.logo-blue {
-  position: absolute;
-  background-color: #fff;
-  z-index: 9;
-  border: 4px solid;
-  border-top: 0;
-  padding: 18px;
-  left: 50%;
-  border-bottom: 0;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-.logo-blue::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  background-color: #fff;
-  height: 2px;
-  width: 100%;
-}
-
 .nav-link {
   color: #fff;
   text-transform: uppercase;
@@ -56,10 +17,6 @@
   transition: all 0.3s ease;
   font-weight: 400;
   font-size: 15px;
-}
-.header-blue .nav-link {
-  color: #000;
-  font-weight: 600;
 }
 .mobile-menu .nav-link:hover {
   color: #fff;
@@ -178,7 +135,7 @@
   width: 100%;
   min-height: 76px;
   z-index: 9999;
-  background-color: #131b31;
+  background-color: #00012f;
   text-align: center;
   animation: slideInDown;
   animation-duration: 0.6s;

@@ -526,6 +526,15 @@ a:focus,
     text-transform: uppercase;    
 }
 /* Services End */
+@media (max-width: 991px) {
+    .sticky-menu .mobile-logo img{
+        height: 50px;
+        display: block !important;
+    }
+    .mobile-affix .mobile-logo img{
+        display: none;
+    }    
+}
 /* Extra small Device. */
 @media (max-width: 767px) {
     .header-top-left{
@@ -610,5 +619,17 @@ a:focus,
     .carousel-inner img {
         width: 100%;
         min-height: 300px;
-      }
+    }
+    .header-banner{
+        position: relative;
+        margin-top: 0px;
+        z-index: 0;
+    }
+    .logo img{
+        height: 60px;
+    }
+    .phone-number span{
+        font-size: 20px;
+    }
+    
 }
