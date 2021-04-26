@@ -460,6 +460,11 @@ a:focus,
     font-size: 18px !important;
 }
 /* Guaranty End */
+/* Services Start */
+.services{
+    padding: 70px 0;
+}
+/* Services End */
 /* Extra small Device. */
 @media (max-width: 767px) {
     .header-top-left{
@@ -521,5 +526,8 @@ a:focus,
     }
     .guaranty .heading{
         padding-top: 30px;
+    }
+    .services{
+        padding: 30px 0;
     }
 }
