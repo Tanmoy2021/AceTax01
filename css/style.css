@@ -566,6 +566,95 @@ a:focus,
 footer{
     background-color: #12171b;
 }
+.top-f-link-outer img{
+  margin: 40px 0;
+}
+.f-top h3{
+  font-size: 22px;
+  color: #fe721a;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.top-f-link{
+  margin:0 20px;
+}
+.top-f-link ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.top-f-link ul li{
+  border-bottom: 1px solid #353a3d;
+  position: relative;
+}
+.top-f-link ul li:after{
+  content: "\f105";
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Font Awesome 5 Pro';
+}
+.top-f-link ul li a{
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 0;
+  display: block;
+}
+.enquiry{
+  border-left:1px solid #2a2f32;
+  border-right:1px solid #2a2f32;
+}
+.enquiry-cont{
+  width: 270px;
+  margin: 0 auto;
+}
+.enquiry-cont .btn{
+  background-color: #fe721a;
+  color: #fff;
+}
+.gettuch ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.gettuch ul li{
+  border-bottom: 1px solid #353a3d;
+  position: relative;
+}
+.gettuch ul li a:first-child{
+  font-size: 26px;
+  color: #a6adb3;
+  padding: 10px 0;
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+}
+.gettuch ul li a{
+  font-size: 16px;
+  color: #a6adb3;
+  padding: 10px 0;
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+}
+.gettuch ul li:last-child a{
+  font-size: 16px !important;
+  color: #a6adb3;
+  padding: 10px 0;
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+}
+.gettuch p{
+  margin-bottom: 0;
+  padding-top: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #a6adb3;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
 .f-bottom{
     background-color: #0d1215;
     padding: 10px 0;  
