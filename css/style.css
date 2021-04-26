@@ -432,6 +432,9 @@ a:focus,
 .common-text a{
     color: #eb641d;
 }
+.common-text a.white-color{
+    color: #fff;
+}
 /* Welcome End */
 /* Guaranty Start */
 .guaranty{
@@ -441,13 +444,20 @@ a:focus,
     background-repeat: no-repeat;
     padding: 80px 0;
 }
-.guaranty .main-heading{
+.guaranty .heading{
     font-family: 'Dosis', sans-serif;
     font-size: 40px;
     font-weight: 600;
     color: #1c1b1b;
     text-transform: uppercase;
     position: relative;
+    padding-bottom: 40px;
+}
+.p-b-0{
+    padding-bottom: 0 !important;
+}
+.f-s-18{
+    font-size: 18px !important;
 }
 /* Guaranty End */
 /* Extra small Device. */
