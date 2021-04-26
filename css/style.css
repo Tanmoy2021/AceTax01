@@ -503,4 +503,23 @@ a:focus,
     .welcome {
         padding: 30px 0;
     }
+    .guaranty{
+        padding: 30px 0;
+        text-align: center;
+    }
+    .guaranty .heading{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #1c1b1b;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .guaranty .common-text{
+        padding-top: 20px;
+    }
+    .guaranty .heading{
+        padding-top: 30px;
+    }
 }
