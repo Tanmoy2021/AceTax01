@@ -639,5 +639,8 @@ a:focus,
     .phone-number span{
         font-size: 20px;
     }
+    .guaranty .f-s-18, .welcome .common-text{
+        font-size: 15px !important;
+    }
     
 }
