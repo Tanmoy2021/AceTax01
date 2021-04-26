@@ -464,6 +464,33 @@ a:focus,
 .services{
     padding: 70px 0;
 }
+.service-box img{
+    border: 5px solid #d8dbdf;
+    border-radius: 100%;
+    display: inline-block;
+}
+.service-box:hover img{
+    border: 5px solid #dc895a;
+}
+.p-b-50{
+    padding-bottom: 50px;
+}
+.service-pic{
+    position: relative;
+}
+.service-pic::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    border: 1px solid #bcbcbc;
+    transform: rotate(10deg);
+}
+.border-none::before{
+    border: none;
+}
 /* Services End */
 /* Extra small Device. */
 @media (max-width: 767px) {
@@ -529,5 +556,14 @@ a:focus,
     }
     .services{
         padding: 30px 0;
+    }
+    .service-pic::before{
+        border: none;
+    }
+    .service-box{
+        padding-bottom: 30px;
+    }
+    .services .p-b-50{
+        padding-bottom: 15px;
     }
 }
