@@ -99,7 +99,7 @@
   position: fixed;
   text-align: left;
   top: 0;
-  background-color: #131b31;
+  background-color: #00012f;
   z-index: 99;
   width: 250px;
   height: 100%;
@@ -142,7 +142,7 @@
   box-shadow: 0px 0px 13px 0px rgba(31, 31, 31, 0.4);
 }
 .sticky-menu .navbar-nav {
-  background-color: #131b31;
+  background-color: #00012f;
 }
 .sticky-menu .nav-link {
   color: #fff;
