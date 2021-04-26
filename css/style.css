@@ -491,6 +491,36 @@ a:focus,
 .border-none::before{
     border: none;
 }
+.service-content h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: #1c1b1b;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    min-height: 110px; 
+    margin-bottom: 0;   
+}
+.service-content h3 span{
+    display: block;
+}
+.service-content p{
+    font-family: 'Open Sans', sans-serif;
+    color: #7d7c7c;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;    
+}
+.service-content a{
+    font-family: 'Open Sans', sans-serif;
+    color: #fe731b;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;    
+}
 /* Services End */
 /* Extra small Device. */
 @media (max-width: 767px) {
@@ -565,5 +595,12 @@ a:focus,
     }
     .services .p-b-50{
         padding-bottom: 15px;
+    }
+    .service-content h3{
+        min-height: auto;
+        padding-bottom: 20px; 
+    }
+    .service-content h3 span{
+        display: inline-block;
     }
 }
