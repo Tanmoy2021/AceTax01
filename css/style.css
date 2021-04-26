@@ -575,10 +575,12 @@ footer{
     font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     color: #a5adb4;
-    margin-top: 10px;
+    margin-top: 6px;
+    margin-bottom: 0;
 }
 .terms{
-    margin-top: 10px;
+    margin-top: 6px;
+    margin-bottom: 0;
 }
 .terms a{
     font-size: 14px;
@@ -587,6 +589,30 @@ footer{
     color: #5e666d;
    
 }
+.social{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.social li{
+  display: inline-block;
+  margin-left: 6px;
+}
+.social li a{
+  background-color: #434c52;
+  color: #0d1215;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 32px;
+  display: inline-block;
+}
+.social li a:hover{
+  background-color:#eb641d;
+  color: #fff;
+}
+
 /* Footer End */
 
 @media (max-width: 991px) {
@@ -701,6 +727,13 @@ footer{
     }
     .guaranty .f-s-18, .welcome .common-text{
         font-size: 15px !important;
+    }
+    .copyright{
+      text-align: center;
+    }
+    .social.text-right{
+      text-align: center !important;
+      margin: 6px 0;
     }
     
 }
