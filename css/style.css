@@ -561,6 +561,34 @@ a:focus,
     opacity: 0.6;
   }
 /* partners End */
+
+/* Footer Start */
+footer{
+    background-color: #12171b;
+}
+.f-bottom{
+    background-color: #0d1215;
+    padding: 10px 0;  
+}
+.copyright{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #a5adb4;
+    margin-top: 10px;
+}
+.terms{
+    margin-top: 10px;
+}
+.terms a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #5e666d;
+   
+}
+/* Footer End */
+
 @media (max-width: 991px) {
     .sticky-menu .mobile-logo img{
         height: 50px;
