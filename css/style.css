@@ -84,6 +84,8 @@ a:focus,
 /* header Bottom area Start */
 .menu-outer{
     background-color:rgba(235, 100, 29, 0.9);
+    z-index: 1;
+    position: relative;
 }
 @media (max-width: 1386px) and (min-width: 992px) {
     .sticky-menu
@@ -368,6 +370,7 @@ a:focus,
     height: 30px;
     border-radius: 100%;
     background-color: rgba(153, 151, 155, 0.6);
+    z-index: -1;
 }
 .carousel-control-next-icon:after {
     content: "";
@@ -378,11 +381,11 @@ a:focus,
     height: 30px;
     border-radius: 100%;
     background-color: rgba(153, 151, 155, 0.6);
+    z-index: -1;
 }
 .header-banner{
     position: relative;
     margin-top: -60px;
-    z-index: -1;
 }
 .carousel-inner img {
     width: 100%;
@@ -619,6 +622,11 @@ a:focus,
     .carousel-inner img {
         width: 100%;
         min-height: 300px;
+    }
+    .menu-outer{
+        background-color:rgba(235, 100, 29, 0.9);
+        z-index: 2;
+        position: relative;
     }
     .header-banner{
         position: relative;
