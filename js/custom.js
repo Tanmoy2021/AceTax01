@@ -48,6 +48,37 @@
             $(".mobile-affix").removeClass("sticky-menu");
         }
     });
+    /*--- PARTNER SLIDER ---*/
+    if ($(".partner").length > 0) {
+        var partner = $(".partner-slider");
+        partner.owlCarousel({
+            margin: 0,
+            loop: true,
+            autoplay: true,
+            autoplayHoverPause: true,
+            nav: false,
+            dots: false,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                350: {
+                    items: 2,
+                },
+                768: {
+                    items: 3,
+                },
+                988: {
+                    items: 4,
+                },
+                1200: {
+                    items: 5,
+                }
+            }
+        });
+    }
+    /*--- PARTNER SLIDER ---*/
     
 
 })(jQuery);
