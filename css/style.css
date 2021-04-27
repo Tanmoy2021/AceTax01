@@ -563,6 +563,9 @@ a:focus,
   .partner-item:hover img {
     opacity: 0.6;
   }
+  .partner-slider h2,.partner-slider h3,.partner-slider h4,.partner-slider h5,.partner-slider h6{
+    text-indent: -3000px;
+  }
 /* partners End */
 
 /* Footer Start */
