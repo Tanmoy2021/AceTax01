@@ -824,5 +824,26 @@ footer{
       text-align: center !important;
       margin: 6px 0;
     }
+    .f-top h3{
+      margin-bottom: 0;
+      padding-bottom: 15px;
+    }
+    .enquiry {
+      border-left: 0;
+      border-right: 0;
+  }
+  .enquiry-cont {
+    width: 100%;
+    margin: 0 auto;
+}
+.enquiry-cont h3{
+  padding-top: 15px;
+}
+.top-f-link-outer img {
+  margin: 15px 0;
+}
+.map img{
+  width: 100%;
+}
     
 }
