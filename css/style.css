@@ -498,7 +498,7 @@ a:focus,
 .border-none::before{
     border: none;
 }
-.service-content h3{
+.service-content h5{
     font-family: 'Dosis', sans-serif;
     font-size: 27px;
     font-weight: 600;
@@ -510,7 +510,7 @@ a:focus,
     min-height: 110px; 
     margin-bottom: 0;   
 }
-.service-content h3 span{
+.service-content h5 span{
     display: block;
 }
 .service-content p{
@@ -569,7 +569,7 @@ footer{
 .top-f-link-outer img{
   margin: 40px 0;
 }
-.f-top h3{
+.f-top h6{
   font-size: 22px;
   color: #fe721a;
   font-family: 'Dosis', sans-serif;
@@ -787,11 +787,11 @@ footer{
     .services .p-b-50{
         padding-bottom: 15px;
     }
-    .service-content h3{
+    .service-content h5{
         min-height: auto;
         padding-bottom: 20px; 
     }
-    .service-content h3 span{
+    .service-content h5 span{
         display: inline-block;
     }
     .carousel-inner img {
@@ -824,7 +824,7 @@ footer{
       text-align: center !important;
       margin: 6px 0;
     }
-    .f-top h3{
+    .f-top h6{
       margin-bottom: 0;
       padding-bottom: 15px;
     }
