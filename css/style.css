@@ -197,27 +197,15 @@ a:focus,
     }
   
     .menubar .navbar-nav .nav-link {
-      padding: 19px 0;
+      padding: 0;
       font-family: 'Open Sans', sans-serif;
       font-size: 15px;
       font-weight: 400;
     }
     .menubar .navbar-nav .nav-item .nav-link:hover{
         color: #fff;
+        box-shadow: 0 2px 0 #ffffff;
     }
-    .menubar .navbar-nav .nav-item .nav-link:hover:after{
-        left: 0;
-    right:  auto;
-    top: 68%;
-    height: 2px;
-    content: "";
-    width: 80%;
-    position: absolute;
-    border-radius: 50px;
-    background-color: #fff;
-    transition: 0.3s all ease-in-out;
-    }
-  
     .mega-dropdown:hover .mega-menu,
     .menubar .drop:hover .drop-menu {
       -webkit-transform: scaleY(1);
@@ -337,6 +325,8 @@ a:focus,
   @media only screen and (min-width: 1199px) {
     .menubar .nav-item {
       padding-right: 45px;
+      padding-top: 19px;
+      padding-bottom: 19px;
     }
   
   }
