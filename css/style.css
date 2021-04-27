@@ -348,6 +348,9 @@ a:focus,
   }
 /* header Bottom area End */
 /* Banner area Start */
+#topbanner h2,#topbanner h3,#topbanner h4,#topbanner h5,#topbanner h6{
+  text-indent: -3000px;
+}
 #topbanner .carousel-indicators li{
     width: 14px;
     height: 14px;
