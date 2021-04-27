@@ -610,6 +610,12 @@ footer{
 }
 .enquiry-cont .btn{
   background-color: #fe721a;
+  border-color: #fe721a;
+  color: #fff;
+}
+.enquiry-cont .btn:hover{
+  background-color: #fe721a;
+  border-color: #fe721a;
   color: #fff;
 }
 .gettuch ul{
