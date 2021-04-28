@@ -461,6 +461,10 @@ a:focus,
 }
 /* Guaranty End */
 /* Services Start */
+.m-15px-tb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .services{
     padding: 70px 0;
 }
@@ -782,9 +786,6 @@ footer{
     }
     .service-pic::before{
         border: none;
-    }
-    .service-box{
-        padding-bottom: 30px;
     }
     .services .p-b-50{
         padding-bottom: 15px;
