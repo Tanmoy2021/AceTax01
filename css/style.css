@@ -724,6 +724,10 @@ footer{
   .guaranty .common-text.f-s-18{
     font-size: 19px !important;
 }
+.enquiry-cont {
+  width: 90%;
+  margin: 0 auto;
+}
 }
 /* Extra small Device. */
 @media (max-width: 767px) {
