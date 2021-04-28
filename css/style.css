@@ -775,11 +775,14 @@ footer{
         position: relative;
         padding-bottom: 20px;
     }
-    .guaranty .common-text{
-        padding-top: 20px;
+    .guaranty .common-text.f-s-18{
+        padding-top: 19px !important;
     }
     .guaranty .heading{
         padding-top: 30px;
+    }
+    .guaranty img{
+      margin: 0 auto 15px;
     }
     .services{
         padding: 30px 0;
